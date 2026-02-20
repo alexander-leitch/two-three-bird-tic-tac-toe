@@ -10,8 +10,8 @@ A simple browser-based Tic-Tac-Toe game with unit and e2e tests.
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd 2026-02-19-tic-tac-toe
+   git clone git@github.com:alexander-leitch/two-three-bird-tic-tac-toe.git
+   cd two-three-bird-tic-tac-toe
    ```
 
 2. If using nvm, switch to the correct Node.js version:
