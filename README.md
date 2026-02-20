@@ -21,7 +21,7 @@ A simple browser-based Tic-Tac-Toe game with unit and e2e tests.
 
 3. Install dependencies:
    ```bash
-   npm install
+   pnpm install
    ```
 
 ## Running the Game
@@ -31,7 +31,7 @@ A simple browser-based Tic-Tac-Toe game with unit and e2e tests.
 Open the game in your browser:
 
 ```bash
-npm start
+pnpm start
 ```
 
 Or manually open `src/index.html` in your browser.
@@ -59,7 +59,7 @@ node src/cli-tictactoe.js
 Run unit tests with Vitest:
 
 ```bash
-npm test
+pnpm test
 ```
 
 ### E2E Tests
@@ -67,7 +67,7 @@ npm test
 Run end-to-end tests with Playwright:
 
 ```bash
-npm run test:e2e
+pnpm test:e2e
 ```
 
 ### All Tests
