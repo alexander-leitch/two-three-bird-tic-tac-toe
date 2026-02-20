@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-A simple browser-based Tic-Tac-Toe game with unit and e2e tests.
+A simple browser-based Tic-Tac-Toe game with unit and e2e tests. [Demo on GitHub Pages](https://alexander-leitch.github.io/two-three-bird-tic-tac-toe/).
 
 ## Prerequisites
 
