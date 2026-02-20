@@ -69,17 +69,17 @@ function handleResultValidation() {
 // Function to handle a player's move
 function playerTurn() {
     displayBoard();
-    rl.question(`Player ${currentPlayer}'s turn. Enter a number 0-8: `, (input) => {
+    rl.question(`Player ${currentPlayer}'s turn. Enter a number 1-9: `, (input) => {
         const position = parseInt(input);
 
-        if (isNaN(position) || position < 0 || position > 8) {
-            console.log('Invalid input. Please enter a number between 0 and 8.');
+        if (isNaN(position) || position < 1 || position > 9) {
+            console.log('Invalid input. Please enter a number between 1 and 9.');
             playerTurn();
-        } else if (board[position] !== ' ') {
+        } else if (board[position - 1] !== ' ') {
             console.log('Position already taken. Please choose another one.');
             playerTurn();
         } else {
-            board[position] = currentPlayer;
+            board[position - 1] = currentPlayer;
             handleResultValidation();
         }
     });
