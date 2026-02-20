@@ -34,12 +34,12 @@ Open the game in your browser:
 npm start
 ```
 
-Or manually open `index.html` in your browser.
+Or manually open `src/index.html` in your browser.
 
 ### Using a Dev Server
 
 ```bash
-npx serve .
+npx serve src/
 ```
 
 Then open `http://localhost:3000` in your browser.
@@ -49,7 +49,7 @@ Then open `http://localhost:3000` in your browser.
 You can also play the game directly in your terminal using the Node.js CLI:
 
 ```bash
-node cli-tictactoe.js
+node src/cli-tictactoe.js
 ```
 
 ## Running Tests
@@ -87,11 +87,12 @@ To enable GitHub Pages:
 ## Project Structure
 
 ```
-├── index.html          # Main HTML file
-├── styles.css          # Game styles
-├── game.js             # UI logic
-├── gameLogic.js        # Core game logic
-├── cli-tictactoe.js    # Command-line game version
+├── src/
+│   ├── index.html          # Main HTML file
+│   ├── styles.css          # Game styles
+│   ├── game.js             # UI logic
+│   ├── gameLogic.js        # Core game logic
+│   └── cli-tictactoe.js    # Command-line game version
 ├── tests/
 │   ├── game.test.js    # Unit tests
 │   └── e2e/

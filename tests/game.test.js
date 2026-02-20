@@ -1,4 +1,4 @@
-import { createGame } from '../gameLogic.js';
+import { createGame } from '../src/gameLogic.js';
 import { describe, it, expect } from 'vitest';
 
 describe('Tic-Tac-Toe Game Logic', () => {
