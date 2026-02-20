@@ -44,6 +44,14 @@ npx serve .
 
 Then open `http://localhost:3000` in your browser.
 
+### Command Line Version
+
+You can also play the game directly in your terminal using the Node.js CLI:
+
+```bash
+node cli-tictactoe.js
+```
+
 ## Running Tests
 
 ### Unit Tests
@@ -83,6 +91,7 @@ To enable GitHub Pages:
 ├── styles.css          # Game styles
 ├── game.js             # UI logic
 ├── gameLogic.js        # Core game logic
+├── cli-tictactoe.js    # Command-line game version
 ├── tests/
 │   ├── game.test.js    # Unit tests
 │   └── e2e/
